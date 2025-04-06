@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">CompanyLogo</div>
+        <nav class="nav-desktop">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">&#9776;</div>
+        <nav class="nav-mobile">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our Website</h1>
+            <p>We create amazing responsive layouts using modern CSS techniques.</p>
+            <button>Learn More</button>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2>Our Features</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <img src="https://via.placeholder.com/150" alt="Feature 1">
+                <h3>Responsive Design</h3>
+                <p>Our layouts work perfectly on all screen sizes and devices.</p>
+            </div>
+            <div class="feature-card">
+                <img src="https://via.placeholder.com/150" alt="Feature 2">
+                <h3>Flexbox Layouts</h3>
+                <p>We use Flexbox for flexible and dynamic content arrangement.</p>
+            </div>
+            <div class="feature-card">
+                <img src="https://via.placeholder.com/150" alt="Feature 3">
+                <h3>CSS Grid Systems</h3>
+                <p>Complex grid layouts made simple with CSS Grid.</p>
+            </div>
+            <div class="feature-card">
+                <img src="https://via.placeholder.com/150" alt="Feature 4">
+                <h3>Media Queries</h3>
+                <p>Custom experiences for different screen sizes and devices.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="services-flex">
+            <div class="service-item">
+                <h3>Web Design</h3>
+                <p>Creating beautiful and functional websites that represent your brand.</p>
+            </div>
+            <div class="service-item">
+                <h3>Mobile Development</h3>
+                <p>Building responsive applications that work on all mobile devices.</p>
+            </div>
+            <div class="service-item">
+                <h3>UI/UX Design</h3>
+                <p>Designing intuitive user interfaces and meaningful user experiences.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Client Testimonials</h2>
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <p>"Their responsive designs have really improved our mobile user engagement."</p>
+                <div class="client">- John Doe, Tech Co</div>
+            </div>
+            <div class="testimonial">
+                <p>"The layout adjusts perfectly to any screen size. Highly recommended!"</p>
+                <div class="client">- Jane Smith, Design Agency</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@company.com</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2025 Responsive Layout Example. All rights reserved.
+        </div>
+    </footer>
+
+    <script>
+        // Simple JavaScript for mobile menu toggle
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-mobile').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
